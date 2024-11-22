@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const MongoClient = require("mongodb").MongoClient;
-const PORT = 8000;
+const PORT = 9000;
 require("dotenv").config();
 
 app.set("view engine", "ejs");
@@ -10,8 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 let db,
-  dbConnectionStr =
-    "mongodb+srv://demo:demo@cluster0.k73rh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  dbConnectionStr = process.env.DB_STRING
   dbName = "rap";
 
 MongoClient.connect(dbConnectionStr).then((client) => {

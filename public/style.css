@@ -1,0 +1,28 @@
+body{
+    background: rgb(106, 156, 106);
+    color: white;
+    font-family: "Caveat Brush", cursive;
+    font-size: 30px;
+}
+h1{
+    font-size: 55px;
+    margin-top: 0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 20%;
+    font-size: 15px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 15%;
+    font-size: 15px;
+}

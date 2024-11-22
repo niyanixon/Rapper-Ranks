@@ -1,6 +1,10 @@
 ## Rapper Rankings
 
-![giphy (2)](https://github.com/user-attachments/assets/7193126e-d4f1-42ba-ac9f-5d089b32ed4a)
+<a href="https://rapper-ranks.onrender.com/" rel="rapper rankins">Visit Site</a>
+
+
+https://github.com/user-attachments/assets/b97a173e-123f-4aa9-bf6d-e329181d6cf3
+
 <p>This application provides an engaging platform where users can explore and interact with their favorite rappers. By entering a rapper's stage name along with their birth name, users contribute to the creation of a dynamic and customizable list of artists. Each rapper can be "liked," with their popularity determined by the number of likes they receive, propelling them to the top of the rankings. Conversely, users can express disinterest by disliking rappers or removing them entirely from the list. This interactive system ensures a personalized and ever-evolving showcase of musical talent based on user preferences.</p>
 
 # 💻 Tech Stack
